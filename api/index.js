@@ -248,7 +248,7 @@ app.get("/api/recentlyadded/:page", (req, res) => {
   if (isNaN(page)) {
     return res.status(404).json({ results });
   }
-  url = `${baseURL}?page=${page}`;
+  url = `https://animetize-api.vercel.app/anime/gogoanime/recent-episodes?page=${page}`;
   rs(url, (err, resp, html) => {
     if (!err) {
       try {
