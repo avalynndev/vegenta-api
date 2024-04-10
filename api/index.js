@@ -7,7 +7,7 @@ const port = 5000;
 
 app.use(cors());
 
-const baseURL = "https://ww4.gogoanimes.fi/";
+const baseURL = "https://gogoanime3.co/";
 
 app.get("/api/home", (req, res) => {
   let info = {
