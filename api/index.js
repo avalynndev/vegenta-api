@@ -11,7 +11,7 @@ const baseURL = "https://ww4.gogoanimes.fi/";
 
 app.get("/api/home", (req, res) => {
   let info = {
-    popular: "https://anime-x.vercel.app/api/popular/:page",
+    popular: "https://tes-henna.vercel.app/api/popular/:page",
     details: "https://anime-x.vercel.app/api/details/:id",
     search: "https://anime-x.vercel.app/api/search/:word/:page",
     episode_link: "https://anime-x.vercel.app/api/watching/:id/:episode",
